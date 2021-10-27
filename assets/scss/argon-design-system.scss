@@ -1,0 +1,38 @@
+/*
+=========================================================
+*  Argon Design System  - v 1.2.2 
+=========================================================
+*/
+
+// Bootstrap Functions
+@import "bootstrap/functions";
+
+// Theme Variables
+@import "argon-design-system/variables";
+
+// Bootstrap Core
+@import "bootstrap/bootstrap";
+
+// Theme Core
+@import "argon-design-system/theme";
+
+// Additional Theme Styles
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+#b2t {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 2.8rem; /* Place the button at the bottom of the page */
+    right: 1rem; /* Place the button 30px from the right */
+}
+html {
+    scroll-behavior: smooth;				
+}
